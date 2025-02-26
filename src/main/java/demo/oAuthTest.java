@@ -18,6 +18,7 @@ public class oAuthTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//Automation API using oAuth 1.0
 		String[] courseTitles = { "Selenium Webdriver Java", "Cypress", "Protractor" };
 
 		String Respone = given()
