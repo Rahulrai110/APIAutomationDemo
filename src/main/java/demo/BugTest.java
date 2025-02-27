@@ -12,6 +12,7 @@ public class BugTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//API AUtomation to create bug and attach screenshot
 		RestAssured.baseURI = "https://rahulraiiter.atlassian.net/";
 
 		String createIssueResponse = given().header("Content-Type", "application/json").header("Authorization",

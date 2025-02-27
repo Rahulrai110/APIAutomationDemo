@@ -18,6 +18,8 @@ public class oAuthTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//How to automation API using oAuth 1.0
+		//End-to-End automation testing using API automation
 		String[] courseTitles = { "Selenium Webdriver Java", "Cypress", "Protractor" };
 
 		String Respone = given()
@@ -47,7 +49,7 @@ public class oAuthTest {
 			}
 		}
 
-		// get the course names of the webautomation
+		// get the course names of the web automation
 		ArrayList<String> a = new ArrayList();
 		List<WebAutomation> wa = gc.getCourses().getWebAutomation();
 

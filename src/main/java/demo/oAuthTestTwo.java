@@ -34,6 +34,7 @@ public class oAuthTestTwo {
 //		Thread.sleep(4000);
 //		String url = driver.getCurrentUrl();
 		
+		//As Google has block login so we will be manually log and get the URL to test this API
 		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0ASVgi3I-4KrvjoUlvBdnDRG69_eXP0qCUyWAe6W9JDKmiiEROwmRSXaYWPQZyo77k3SdnA&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=1&prompt=none";
 		
 		String paratialCode = url.split("code=")[1];
